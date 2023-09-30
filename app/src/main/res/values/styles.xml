@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxStrokeColor">@color/black</item>
+        <item name="hintTextColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">#000000FF</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="ButtonPrimary" parent="Widget.Material3.Button">
+        <item name="android:backgroundTint">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#FFC842</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="TextStylePrimary" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:fontFamily">@font/poppins_bold</item>
+    </style>
+    <style name="TextStyleSecondary" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="TextStyleTertiary" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:textColor">#FFC842</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="RadioButtonStyle" parent="Widget.Material3.CompoundButton.RadioButton">
+        <item name="buttonTint">@color/button_tint</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+    <style name="SwitchButtonStyle" parent="Widget.Material3.CompoundButton.MaterialSwitch">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Switch</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/poppins_medium</item>
+    </style>
+
+    <style name="ThemeOverlay.App.Switch" parent="">
+        <item name="colorPrimary">#FFC842</item>
+        <item name="colorSurfaceVariant">@color/white</item>
+    </style>
+</resources>
